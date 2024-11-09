@@ -8,9 +8,16 @@
      </head>
     <body>
         <script src="https://js.puter.com/v2/"></script>
-        <div>
-            <h1 class="text-6xl">AI Pokemon Generator</h1>
-            
+        <div class="site">
+            <h1 class="text-6xl">AI Pokemon Generator</h1> 
+            <br>
+            <input style="width: 34vh;" type="text" id="name" class="bg-gray-700 text-gray-100 text-sm rounded-lg p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white" placeholder="What is the name of your Pokemon?">
+            <input style="width: 50vh;" type="text" id="desc" class="bg-gray-700 text-gray-100 text-sm rounded-lg p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white" placeholder="Please write a short description of your Pokemon.">
+            <br style="margin-bottom: 20px;">
+            <a href="javascript:generate()" class="text-white bg-blue-400 hover:bg-blue-500 focus:ring-4 font-medium rounded-lg text-sm py-2.5 px-60">Generate your Pokemon</a>
+            <div id="append" style="margin-top: 15px; font-size: 20px;">
+            <div id="image" style="margin-left: 50%;"></div>
+            </div>
         </div>
     </body>
 </html>

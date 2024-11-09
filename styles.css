@@ -2,11 +2,18 @@ body {
     background-image: url("/assets/pika.jpg");
 }
 
-div{
+.site{
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px; /* Adjust the value as needed */
 	text-align: center;
 	margin: 5px;
     height: 98vh;
     margin-top: 1vh;
+    align-items: center;
 }
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
